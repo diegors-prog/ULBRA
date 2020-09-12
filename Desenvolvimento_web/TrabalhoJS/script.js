@@ -7,7 +7,7 @@ function calcular() {
     var resultadoFinal = document.getElementById("resultadoFinal");
     var resultado = 0;
 
-    if(n1.length =='' | n2.length ==''){
+    if(n1.length =='' || n2.length ==''){
         alert('Digite os valores para serem processados!');
         return;
      }
