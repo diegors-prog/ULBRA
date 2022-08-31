@@ -227,4 +227,21 @@ function convertToBoolean(content) {
         }, 700);
     })
 
+
+function verificarPoints() {
+    
+    let vento = document.getElementById('vento').value;
+    let ondulacao = document.getElementById('ondulacao').value;
+    let resultante = document.getElementById('resultado10');
+
+    if (ondulacao === "sul" && vento === "nordeste"){
+        resultante.innerHTML = `Possibiidade de boas ondas em:<br/>Santinho<br/>Barra da Lagoa<br/>Caldeirão`;
+    } else if (ondulacao === "sul" && vento === "sul"){
+        resultante.innerHTML = `Possibilidade de boas ondas em:<br/>Lagoinha do Leste<br/>Galheta Norte<br/>Galheta<br/> Moçambique<br/>Mole<br/>Santinho`;
+    } else if (ondulacao === "norte" && vento === "norte"){
+        resultante.innerHTML = `Possibilidade de boas ondas em:<br/>Morro das Pedras<br/>Novo Campeche<br/>Lomba do Sabão<br/>Pico da Cruz`;
+    } else{
+        resultante.innerHTML = `Mar fudido, vai da o cú`;
+    }
+}
     

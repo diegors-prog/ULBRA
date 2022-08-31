@@ -1,0 +1,63 @@
+/*Importando fontes do Google*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@300;400&display=swap");
+
+/*Resetando todo o HTML*/
+* {
+  font-family: 'Roboto', 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.2s linear;
+}
+
+/*Básico para todas as imagens*/
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/*div que contém todo o conteúdo da página*/
+.wrap {
+  border: 1px solid #000000;
+}
+
+/*A partir daqui começa o conteúdo, está em ordem*/
+.title-div {
+  background-color: #9bbb58;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.profile-div {
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  max-width: 150px;
+  border-radius: 100%;
+  box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.35);
+  border: 1px solid #000000;
+}
+
+.info {
+  color: #9bbb58;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.objective {
+  margin: 0px 20px 0px 20px;
+}
+
+.formation-div {
+  margin-left: 20px;
+}
